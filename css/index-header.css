@@ -1,0 +1,28 @@
+
+/* Contendor principal dentro de header */
+.header-info-container{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row; /* Se ajusta horizontalmente */
+    flex-wrap: wrap;  /* Se ajustan cuando no caben */
+    justify-content: space-between; /* Ocupan todo el espacio, eje x */
+    align-items: center; /* Centrado en eje y */
+    height: 50px;
+    padding: 0 10px;
+}
+
+.header-icon-container{
+    height: 40px;
+    width: 140px;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-icon-container a{
+    color: antiquewhite;
+    font-size: 24px;
+}
