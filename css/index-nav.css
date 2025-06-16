@@ -5,10 +5,9 @@ nav{
     z-index: 100;
 }
 .nav-mapsite-cointainer{
-    
     display: flex;
-    justify-content: space-around;;
-    height: 80px;
+    justify-content: space-around;
+    height: 90px;
     padding: 0 10px;
     align-items: center;
     position: relative;
@@ -48,7 +47,7 @@ nav{
     text-decoration: underline;
 }
 
-/* Botón de navegación */
+/* Botón de cotizado */
 .nav-button{
     height: 40px;
     display: flex;

@@ -6,10 +6,18 @@
     display: flex;
     flex-direction: row; /* Se ajusta horizontalmente */
     flex-wrap: wrap;  /* Se ajustan cuando no caben */
-    justify-content: space-between; /* Ocupan todo el espacio, eje x */
+    justify-content: space-around; /* Ocupan todo el espacio, eje x */
     align-items: center; /* Centrado en eje y */
-    height: 50px;
+    height: 40px;
     padding: 0 10px;
+}
+
+.header-info-text-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 550px;
 }
 
 .header-icon-container{
