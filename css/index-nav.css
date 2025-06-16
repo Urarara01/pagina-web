@@ -1,0 +1,77 @@
+/* Contenedor principal del nav */
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-mapsite-cointainer{
+    
+    display: flex;
+    justify-content: space-around;;
+    height: 80px;
+    padding: 0 10px;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 5px 10px 1px #0000002e;
+    position: static;
+    background-color: white;
+}
+
+/* Contenedor de las páginas */
+.nav-pages-container{
+    width: 460px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 10px 0;
+    align-items: center;
+
+}
+.nav-pages-container a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+} 
+.nav-pages-container .current-page{
+    /* PAGINA ACTUAL */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    color: #ecba04;
+    font-weight: bolder;
+    border-bottom: 5px solid #ecba04;
+}
+.nav-pages-container a:hover{
+    color: #f1bd00;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* Botón de navegación */
+.nav-button{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0 10px;
+    justify-content: center;
+    background-color: #f1bd00; /* Color principal */
+    color: white;
+    border: none;
+}
+
+/* Contenedor del logo */
+.nav-logo-container{
+    font-weight: bolder;
+    height: 100%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nav-logo-container img{
+    height: 100%;
+}
