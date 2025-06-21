@@ -40,10 +40,28 @@ nav{
 
 }
 .nav-pages-container a{
+    /* outline: 5px solid red; */
     color: black;
     text-decoration: none;
-    transition: all 0.5s ease-in-out;
-} 
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-pages-container a:hover{
+    color: #f1bd00;
+    font-weight: bolder;
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition-duration: 0.1s; /* Entrada rápida */
+    transition-timing-function: ease-in;
+    margin: 0 10px;
+}
+#current-page:hover{
+    text-decoration: none;
+}
 .nav-pages-container .current-page{
     /* PAGINA ACTUAL */
     justify-content: center;
@@ -52,11 +70,7 @@ nav{
     display: flex;
     height: 100%;
     border-bottom: 5px solid #ecba04;
-}
-.nav-pages-container a:hover{
-    color: #f1bd00;
-    font-weight: bolder;
-    text-decoration: underline;
+
 }
 
 /* Botón de cotizado */
@@ -71,6 +85,15 @@ nav{
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 8px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.nav-button:hover{
+    /* color: white; */
+    transform: scale(1.05);
+    transition-duration: 0.1s; /* Entrada rápida */
+    transition-timing-function: ease-in;
 }
 
 /* Contenedor del logo */
