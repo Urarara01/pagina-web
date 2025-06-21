@@ -1,0 +1,115 @@
+/* SECCION DEL BANNER */
+.banner-section{
+    /* outline: 5px solid red; */
+    width: 100%;
+    background-image: url("../image/index/banner-index.png");
+    background-size: cover;
+    /* position: relative; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+} 
+/* INFO CONTAINER */
+.banner-section-info{
+    position: absolute;
+    left: 220px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+.banner-section-info h2{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.821);
+}
+.banner-section h2 span{
+    color: #FFC117;
+}
+.banner-section-info a{
+    background-color: #FFC117;
+    width: 200px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* SECCIÓN DE SERVICIOS */
+.service-section{
+    /* border: 5px solid goldenrod; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px 0 20px 0;
+}
+.service-section h2{
+    font-size: 2rem;
+}
+.service-section .service-section-articles{
+    /* outline: 5px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.service-section-articles .tarjeta{
+    /* outline: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.341);
+    border-radius: 8px;
+}
+.article-text{
+    display: flex;
+    /* outline: 5px solid purple; */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+.article-text h5{
+    text-align: left;
+    align-self: flex-start;
+    font-size: 1.3rem;
+}
+.tarjeta{
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+.tarjeta img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+.ver-cotizar-container{
+    /* outline: 5px solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+.ver-cotizar-button{
+    background-color: #FFC117;
+    padding: 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
